@@ -2,9 +2,9 @@
 
 ![Screenshot of the App](/screenshot.png)
 
-GUI feita em python com base na biblioteca ```tkinter``` com o tema [**Azure**](https://github.com/rdbende/Azure-ttk-theme) desenvolvido por @rdbende.
+GUI feita em python com base na biblioteca ```tkinter``` com o tema [**Azure**](https://github.com/rdbende/Azure-ttk-theme) desenvolvido por [@rdbende](https://github.com/rdbende).
 
-O código da aplicação é uma adaptação do exemplo que o prório @rdbende disponibiliza [aqui](https://github.com/rdbende/Azure-ttk-theme/blob/main/example.py).
+O código da aplicação é uma adaptação do exemplo que o prório [@rdbende](https://github.com/rdbende) disponibiliza [aqui](https://github.com/rdbende/Azure-ttk-theme/blob/main/example.py).
 
 A GUI (Interface Gráfica de Usuário) consegue mostrar de maneira mais agradável um DataFrame ou DataFrameGroupBy do ```pandas```.
 
@@ -13,7 +13,8 @@ Para utilizar o tema é preciso que ele esteja instalado em seu computador e que
 Para iniciar a GUI é necessário criar uma lista de dicionários com as configurações como no exemplo abaixo:
 
 > O caminho (path) que voçê utilizará provavelmente é
-*C:\\Users\user_name\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\themes\\Azure-ttk-theme-main\\azure.tcl*
+> 
+> *C:\\Users\user_name\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\themes\\Azure-ttk-theme-main\\azure.tcl*
 
 ## Exemplo de Código
 ```python
@@ -35,4 +36,4 @@ List = [df, df_groupby]
 App.initialize(List, win_size=(1000, 450), theme=True)
 ```
 
-> [See this text in english](/README.MD)
+> [See this text in english](/README_EN.md)
