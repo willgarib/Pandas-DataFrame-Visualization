@@ -2,9 +2,9 @@
 
 ![Screenshot of the App](/screenshot.png)
 
-GUI made in python based on the ```tkinter``` library with the [**Azure**](https://github.com/rdbende/Azure-ttk-theme) theme developed by @rdbende.
+GUI made in python based on the ```tkinter``` library with the [**Azure**](https://github.com/rdbende/Azure-ttk-theme) theme developed by [@rdbende](https://github.com/rdbende).
 
-The application code is an adaptation of the example provided by @rdbende [here](https://github.com/rdbende/Azure-ttk-theme/blob/main/example.py).
+The application code is an adaptation of the example provided by *@rdbende* [here](https://github.com/rdbende/Azure-ttk-theme/blob/main/example.py).
 
 The GUI (Graphical User Interface) is able to more nicely display a ```pandas``` DataFrame or DataFrameGroupBy.
 
@@ -13,7 +13,8 @@ To use the theme, it must be installed on your computer and you must configure t
 To start the GUI it is necessary to create a list of dictionaries with the settings as in the example below:
 
 > The path you will probably use is
-*C:\\Users\user_name\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\themes\\Azure-ttk-theme- main\\azure.tcl*
+>
+> *C:\\Users\user_name\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\themes\\Azure-ttk-theme- main\\azure.tcl*
 
 ## Code Example
 ```python
